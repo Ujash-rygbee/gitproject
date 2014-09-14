@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;exam.circular.binary().midindex&apos; in &apos;exam.circular.binary()&apos; to field&#x0D;&#x0A;- Original project: &apos;lab&apos;&#x0D;&#x0A;- Original element: &apos;exam.circular.binary().midindex&apos;&#x0D;&#x0A;- Field name: &apos;midindex2&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;midindex&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;exam{circular.java" name="midindex2" selection="488 12" stamp="1395993539292" static="true" version="1.0" visibility="2"/>
+</session>

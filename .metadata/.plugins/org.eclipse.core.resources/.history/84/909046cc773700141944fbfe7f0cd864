@@ -1,0 +1,48 @@
+package test;
+
+public class Duplicate_sequence
+
+{
+   
+	private String input;
+	
+	Duplicate_sequence(String s)
+	{
+		
+		this.input=s;
+		
+		
+	}
+	
+	
+	public String remove_Duplicate()
+	{
+		String modified=new String();
+		for(int i=1;i<=this.input.length()-1;i++)
+		{
+			
+			char character=input.charAt(i-1);
+			char another=input.charAt(i);
+	        if(character!=another)
+	        {
+	        	modified+=""+character;
+	        	
+	        	
+	        	
+	        }
+	        
+	         modified+=""+another;        
+			
+			
+	        
+		}
+		
+	
+		
+		return modified;
+	}
+	
+	
+	
+	
+}

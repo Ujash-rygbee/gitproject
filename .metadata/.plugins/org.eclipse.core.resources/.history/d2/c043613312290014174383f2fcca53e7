@@ -1,0 +1,129 @@
+package sem3;
+
+public class main {
+
+	public static void main(String[] args)
+	{
+		
+		stackq s=new stackq(5);
+		s.push(1);
+		s.q1.show();
+		s.push(2);
+		s.q1.show();
+		s.push(3);
+		s.push(5);
+		s.q1.show();
+		s.pop();
+		s.q1.show();
+		s.push(5);
+		s.push(5);
+		s.push(5);
+		s.q1.show();
+		s.push(5);
+		s.q1.show();
+		/*QueueNode q=new QueueNode();
+		q.enqueue(1);
+		q.enqueue(2);
+		q.enqueue(3);
+		q.dequeue();
+		q.dequeue();
+		q.dequeue();
+		q.dequeue();
+		*/
+		/*StackNode s=new StackNode();
+		s.push(1);
+		s.push(2);
+		s.push(3);
+		s.push(4);
+		s.pop();
+		s.pop();
+		s.pop();
+		s.pop();
+		s.pop();
+		s.pop();
+		*/
+		
+		/*stack_reverse sq=new stack_reverse(6);
+		sq.s1.push(1);
+		sq.s1.push(2);
+		sq.s1.push(3);
+		sq.s1.push(6);
+		sq.s1.push(4);
+		sq.s1.push(5);
+		
+		sq.s1.show();
+		sq.reverse(2,4);
+		sq.s1.show();*/
+		/*Stack_elms_exchange sq=new Stack_elms_exchange(6);
+	sq.s1.push(1);
+	sq.s1.push(2);
+	sq.s1.push(3);
+	sq.s1.push(6);
+	sq.s1.push(4);
+	sq.s1.push(5);
+	
+	sq.s1.show();
+	sq.ExchangeElements(2,4);
+	
+		
+	 queue1 q1=new queue1(5);
+	 q1.enqueue(1);
+	 q1.show();
+	 q1.enqueue(2);
+	 q1.show();
+	 q1.enqueue(3);
+	 q1.show();
+	 q1.enqueue(4);
+	 q1.show();
+	 q1.enqueue(5);
+	 q1.show();
+	 q1.enqueue(6);
+	 q1.show();
+	
+	 q1.dequeue();
+	 q1.show();
+	 q1.dequeue();
+	 q1.show();
+	 q1.dequeue();
+	 q1.show();
+	 q1.dequeue();
+	 q1.show();
+	 q1.dequeue();
+	 q1.show();
+	 q1.dequeue();
+	 q1.show();*/
+	 
+		
+		/*stack s1=new stack(5);
+		s1.push(1);
+		s1.show();
+		s1.push(2);
+		
+		s1.show();
+		s1.push(3);
+		s1.show();
+		s1.push(4);
+		s1.show();
+		s1.push(5);
+		s1.show();
+	    s1.push(7);
+	    
+	    s1.show();
+	    s1.pop();
+	    s1.show();
+	    s1.pop();
+	    s1.show();
+	    s1.pop();s1.show();
+	    s1.pop();s1.show();
+	    s1.pop();
+	    s1.show();
+	    s1.pop();
+	    s1.show();*/
+	}
+	
+	
+	
+	
+	
+	
+}

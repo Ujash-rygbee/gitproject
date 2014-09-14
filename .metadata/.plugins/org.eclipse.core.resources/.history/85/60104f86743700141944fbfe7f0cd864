@@ -1,0 +1,23 @@
+package test;
+
+public class Duplicate_sequence
+
+{
+   
+	private String input;
+	
+	Duplicate_sequence(String s)
+	{
+		
+		this.input=s;
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+}

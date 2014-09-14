@@ -1,0 +1,18 @@
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+import test.*;
+import test.*
+
+public class testcase {
+
+	@Test
+	public void test()
+	{
+	  Duplicate_catcher catches=new Duplicate_catcher();
+		
+		
+	}
+
+}

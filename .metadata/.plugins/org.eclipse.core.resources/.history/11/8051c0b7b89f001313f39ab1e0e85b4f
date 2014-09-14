@@ -1,0 +1,24 @@
+
+public class prac2 
+   {
+	private Arraylist<prac1>death;
+	public prac2()
+	{
+		death=new Arraylist<prac1>();
+	}
+	
+	
+public void
+ add(int j)
+{
+	death=new Arraylist<prac1>();
+	for(int i=0;i<j;i++)
+	{
+		death.
+	}
+		
+}
+   
+	
+	
+    }

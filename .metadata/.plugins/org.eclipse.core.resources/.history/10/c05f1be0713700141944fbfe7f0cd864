@@ -1,0 +1,50 @@
+package test;
+import java.util.Scanner;
+
+public class Duplicate_catcher 
+{
+  private String input;
+  
+  
+  Duplicate_catcher(String s)
+  {
+	Scanner scan=new Scanner(System.in);
+	this.input=scan.nextLine();
+	  
+	  
+  }
+  
+  public String remove_Duplicates()
+  {
+	  String modified_input=null;
+	  int character_count[]=new int[26];
+	  
+	  for(int i=0;i<input.length();i++)
+	  {
+		char character=input.charAt(i);
+		int integer=(int)character;
+		integer=integer-97;
+		character_count[integer]++;
+		
+		if(character_count[integer]<=1)
+		{
+			
+			modified_input+=""+character;
+			
+		}
+		  
+		  
+		  
+	  }
+	  
+	  
+	  
+	  
+	  return modified_input;
+  }
+  
+	
+	
+	
+	
+}

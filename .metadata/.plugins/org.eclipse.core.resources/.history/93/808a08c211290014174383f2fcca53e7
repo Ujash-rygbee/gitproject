@@ -1,0 +1,35 @@
+package sem3;
+
+public class stackq
+{
+   public queue q1;
+   public queue q2;
+   
+   stackq(int x)
+   {
+	   
+	   q1=new queue(x);
+	   q2=new queue(x);
+   }
+	
+   
+   public int pop()
+   {
+	   int x=0;
+	   if(!(q1.isEmpty()))
+	   {
+		   
+		x=q1.array[q1.tail--];  
+		  
+	  }
+	   
+	   
+	   return x;
+	   
+	   
+	   
+   }
+	
+	
+	
+}

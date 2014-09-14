@@ -1,0 +1,26 @@
+package lab3;
+import java.util.Scanner;
+
+public class insertion_sort 
+{
+  private int[] array=new int[5];
+  Scanner scan=new Scanner(System.in); 
+  
+  
+  
+  public void sort()
+  {
+	for(int i=0;i<5;i++)
+	{
+		array[i]=scan.nextInt();
+		
+		
+		
+	}
+	  
+	  
+	  
+  }
+	
+	
+}

@@ -1,0 +1,30 @@
+package exam;
+
+public class circular
+ { 
+  public static void main(String[] args)
+  {
+	int a[]={23,34,54,87,7,10,13,16,19};
+  
+  
+  
+  }
+	
+  
+    public void binary(int b[],int m,int key,int n)
+    {
+    	
+    
+    
+    
+    
+    
+    
+    
+    }
+  
+  
+	  
+	
+	
+  }
